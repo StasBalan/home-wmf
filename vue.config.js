@@ -5,7 +5,7 @@ module.exports = {
     devServer: {
         port: 8085,
     },
-    publicPath: process.env.NODE_ENV === 'development' ? "/" : "https://profile-wmf.vercel.app/",
+    publicPath: process.env.NODE_ENV === 'development' ? "/" : "https://home-wmf.vercel.app/",
     configureWebpack: {
         plugins: [
             new ModuleFederationPlugin({
