@@ -11,6 +11,9 @@ module.exports = {
             new ModuleFederationPlugin({
                 name: "home",
                 filename: "remoteHomeEntry.js",
+                remotes: {
+                    shell: "shell@https://shell-wmf.vercel.app/remoteEntry.js",
+                },
                 exposes: {
                     "./Home": "./src/views/Home.vue",
                 },

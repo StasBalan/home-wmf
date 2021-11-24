@@ -2,7 +2,7 @@
   <div class="home">
     asdf
     <div>
-      {{ $store.state }}
+      {{ $store.state.countModule.count }}
     </div>
     <h1>HOME</h1>
     <img alt="Vue logo" src="../assets/logo.png" />
